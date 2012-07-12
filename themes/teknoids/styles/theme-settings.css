@@ -1,0 +1,94 @@
+/*
+ * --- THEME BIGDADDY ---
+ * Styles for THEME SETTINGS screen styles.
+----------------------------------------------------- */
+
+/* --- Second background rule is for IE. To simplify the css, I degrade it by removing the transparency but you can use the very long IE filter property ;) --- */
+body.wireframes #site-header {
+  background: rgba(0, 255, 0, 0.35) !important;
+  background: rgb(0, 255, 0);
+} 
+body.wireframes #sidebar-first {
+  background: rgba(162, 0, 197, 0.35) !important;
+  background: rgb(162, 0, 197);
+} 
+
+body.wireframes #middle-content {
+  background: rgba(255, 0, 0, 0.35) !important;
+  background: rgb(255, 0, 0);
+}
+
+body.wireframes #sidebar-second {
+  background: rgba(0, 194, 236, 0.35) !important;
+  background: rgb(0, 194, 236);
+} 
+
+body.wireframes #site-footer {
+  background: rgba(236, 222, 0, 0.35) !important;
+  background: rgb(236, 222, 0);
+}
+
+/* --- Block editing links --- */
+body.logged-in .block {
+  position: relative;
+}
+
+body.logged-in .block-edit {
+  background-color: #fff;
+  font-size: 11px;
+  padding: 0 2px;
+  position: absolute;
+  right: 999999px;
+  text-align: center;
+  top: 3px;
+  border: 1px solid #eee;
+  width: 60px;
+}
+
+body.logged-in .block:hover .block-edit {
+  right: 10px;
+}
+
+body.logged-in .block:hover .block-edit.menu {
+  right: -60px;
+}
+
+/* --- CSS Protyping --- */
+body.prototyping::before {
+  content:"";
+  position:fixed;
+  z-index:1;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:.3;
+  pointer-events:none;
+}
+
+body.prototyping * {
+  -webkit-user-modify: read-write; 
+  word-wrap: break-word;
+  -webkit-nbsp-mode: space;
+  -webkit-line-break: after-white-space;
+}
+
+body.prototyping a {
+  -webkit-user-modify: initial;
+  -moz-user-modify: initial;
+}
+
+/* Grid System */
+body.grid-system::before {
+  content:"";
+  position:fixed;
+  z-index:1;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:.3;
+  pointer-events: none;
+  background: url('../images/960px-12col-58w-24gut.png') center top repeat-y;
+}
+

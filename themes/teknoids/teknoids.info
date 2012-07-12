@@ -1,0 +1,70 @@
+name = Teknoids
+description = A nice starting theme for Drupal themers. Written in HTML5 with clean CSS and ready for CSS3 and @media queries integration.
+core = 6.x
+version = 6.x-0.0
+engine = phptemplate
+screenshot = images/screenshot.png
+
+;--------------------- regions ---------------------------
+regions[header] = HEADER
+regions[sidebar_first] = SIDEBAR FIRST
+regions[content_top] = CONTENT TOP
+regions[content_bottom] = CONTENT BOTTOM
+regions[sidebar_second] = SIDEBAR SECOND
+regions[footer] = FOOTER
+
+;--------------------- styles ----------------------------
+;stylesheets[all][] = styles/reset.css
+stylesheets[all][] = styles/typography.css
+stylesheets[all][] = styles/spacelab-bootstrap.css
+stylesheets[all][] = styles/bootstrap-responsive.css
+;stylesheets[all][] = styles/master.css
+;stylesheets[all][] = styles/master-css3.css
+;stylesheets[all][] = styles/master-media.css
+stylesheets[all][] = styles/theme-settings.css
+;stylesheets[print][] = styles/master-print.css
+
+;------------ Conditional Stylesheets for IE --------------
+ie stylesheets[if lte IE 8][all][] = styles/master-ie.css
+
+;-------------------------- LESS --------------------------
+;---- works only with http://drupal.org/project/less ------
+;stylesheets[all][] = styles/less/master-less.css.less
+
+;--------------------- javascripts ------------------------
+scripts[] = scripts/master.js
+;scripts[] = scripts/bootstrap-alert.js
+;scripts[] = scripts/bootstrap-button.js
+;scripts[] = scripts/bootstrap-carousel.js
+;scripts[] = scripts/bootstrap-collapse.js
+;scripts[] = scripts/bootstrap-dropdown.js
+;scripts[] = scripts/bootstrap-modal.js
+;scripts[] = scripts/bootstrap-popover.js
+;scripts[] = scripts/bootstrap-scrollspy.js
+;scripts[] = scripts/bootstrap-tab.js
+;scripts[] = scripts/bootstrap-tooltip.js
+;scripts[] = scripts/bootstrap-transition.js
+;scripts[] = scripts/bootstrap-typeahead.js
+
+;--------------------- settings ---------------------------
+settings[teknoids_wireframes] =    0
+settings[teknoids_block_editing] = 1
+settings[teknoids_css_prototyping] = 0
+settings[teknoids_grid_system] = 0
+
+;--------------------- skinr ------------------------------
+;---- works only with http://drupal.org/project/skinr -----
+;skinr[skin_system_name][title] = Title
+;skinr[skin_system_name][description] = Descrition of my skinr option
+
+;--------------------- panels -----------------------------
+;----------- works only with the Panels module -----------
+;Panels layouts. You can place multiple layouts under the "layouts" folder.
+plugins[panels][layouts] = layouts
+
+; Information added by drupal.org packaging script on 2012-03-02
+version = "6.x-2.1"
+core = "6.x"
+project = "teknoids"
+datestamp = "1330704037"
+

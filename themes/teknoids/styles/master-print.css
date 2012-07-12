@@ -1,0 +1,17 @@
+/*
+ * --- THEME BIGDADDY ---
+ * Styles for MASTER print styles.
+----------------------------------------------------- */
+
+body {
+  font-family: Times, Garamond, serif;
+}
+
+#sidebar-first, #sidebar-second, #site-footer {
+  display: none;
+}
+
+#middle-content {
+  border: 0;
+  width: 100%;
+}

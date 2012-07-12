@@ -1,0 +1,259 @@
+/*
+ * --- THEME BIGDADDY ---
+ * Styles for MASTER screen styles.
+----------------------------------------------------- */
+
+/* ------------------ INDEX -------------------------
+ * COLORS
+ * GLOBAL
+ * HEADER
+ * MIDDLE
+ * SIDEBAR FIRST
+ * MIDDLE CONTENT
+ * SIDEBAR RIGHT
+ * FOOTER
+ * FORMS
+ * MISC
+ * DRUPAL CORE STYLES
+----------------------------------------------------- */
+
+/* COLORS
+---------------------------------------------------------------------- */
+/*
+GREEN: #b2cc00
+BLUE: #00b6e8
+BLACK: #000
+BROWN: #3A2508
+LILA: #ac00ec
+PINK: #e5007b
+*/
+
+/* GLOBAL
+---------------------------------------------------------------------- */
+#global {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* HEADER
+---------------------------------------------------------------------- */
+#site-header {
+  min-height: 110px;
+  padding: 20px 10px 10px 0;
+  position: relative;
+}
+
+#site-header .logo {
+  display: block;
+  float: left;
+  margin: 0 10px 0 20px;
+}
+
+#site-header h2.site-name {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#site-header h2.site-name a {
+  text-decoration: none;
+}
+
+#site-header h3.site-slogan {
+  color: #8c8c8c;
+}
+
+#site-header #block-menu-primary-links {
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+
+#site-header #block-menu-primary-links li {
+  float: left;
+  line-height: 2em;
+  margin: 0 10px;
+}
+
+#site-header #block-menu-primary-links li a {
+  float: left;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* MIDDLE
+---------------------------------------------------------------------- */
+#middle .breadcrumb {
+  margin-bottom: 30px;
+}
+
+#middle .breadcrumb li {
+  float: left;
+  padding-right: 3px;
+}
+
+#middle .breadcrumb li.current-page a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* SIDEBAR FIRST
+---------------------------------------------------------------------- */
+#sidebar-first {
+  float: left;
+  width: 222px;
+  margin-right: 24px;
+  font-size: 11px;
+  line-height: 1.4em;
+}
+
+#sidebar-first .block {
+  background: #00A9E0;
+  padding: 15px 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* MIDDLE CONTENT
+---------------------------------------------------------------------- */
+#middle-content {
+  float: left;
+  width: 100%;
+}
+
+#middle-content li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+body.sidebar-second #middle-content {
+  width: 550px;
+}
+
+body.sidebar-first #middle-content {
+  width: 714px;
+}
+
+body.both-sidebars #middle-content {
+  width: 386px;
+}
+
+/* SIDEBAR SECOND
+---------------------------------------------------------------------- */
+#sidebar-second {
+  float: left;
+  width: 386px;
+  font-size: 11px;
+  line-height: 1.4em;
+  margin-left: 24px;
+}
+
+body.both-sidebars #sidebar-second {
+  width: 304px;
+}
+
+#sidebar-second .block {
+  background: #00A9E0;
+  padding: 15px 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* FOOTER
+---------------------------------------------------------------------- */
+#site-footer {
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* FORMS
+---------------------------------------------------------------------- */
+input.form-text, textarea.form-textarea {
+  background: #e8e8e8;
+  border: 1px solid #212121;
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Trebuchet MS", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+input.form-text:focus, textarea.form-textarea:focus {
+  background: #fff;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* MISC
+---------------------------------------------------------------------- */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* DRUPAL CORE STYLES
+---------------------------------------------------------------------- */
+.messages {
+  margin-bottom: 10px;
+}
+
+.messages.status {
+  border: 1px solid #33a333;
+  color: #33a333;
+  padding: 5px;
+}
+
+.messages.error, div.error, tr.error {
+  background-color: #FFCCCC;
+  color: #a30000;
+  padding: 5px;
+}
+
+/* --- ADMIN styles --- */
+#block-admin-display-form table {
+  width: 100%;
+}
+
+#block-admin-display-form table th {
+  color: #93b11f;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+
+#block-admin-display-form table tr {
+  line-height: 30px;
+}
+
+#block-admin-display-form table tr.region td {
+  padding-top: 10px;
+}
+
+#block-admin-display-form #edit-submit {
+  margin: 20px 0;
+}
+
+#block-admin-display-form .draggable a.tabledrag-handle {
+  padding: 5px;
+  margin: 0;
+}
+
+div.styleguide {
+  border: none
+}
+
+#styleguide-header {
+  padding: 10px;
+}
+
+#styleguide-header .item-list {
+  width: 18%;
+}
+
+

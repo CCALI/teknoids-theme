@@ -1,0 +1,11 @@
+/*
+ * --- THEME BIGDADDY ---
+ * Styles for Internet Explorer screen styles.
+----------------------------------------------------- */
+
+/* Clearfix hack specific for IE7 and below 
+---------------------------------------------------------------------- */
+.clearfix {zoom: 1;}
+
+/* For IE6: http://code.google.com/p/universal-ie6-css/
+---------------------------------------------------------------------- */

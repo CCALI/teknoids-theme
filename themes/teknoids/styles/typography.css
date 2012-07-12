@@ -1,0 +1,86 @@
+/*
+ * --- THEME BIGDADDY ---
+ * Styles for TYPOGRAPHY screen styles.
+----------------------------------------------------- */
+
+/*  Rules for special fonts (add your font files in the /fonts folder)
+---------------------------------------------------------------------- */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/MyCustomFont.eot');  /* IE6–8 */
+  src: local('☺'), 
+        url('fonts/MyCustomFont.woff') format('woff'),  /* FF3.6, IE9 */
+        url('fonts/MyCustomFont.ttf') format('truetype');  /* Saf3+, Chrome, FF3.5, Opera 10+, iOS */
+}
+/* ------------------------------------------------------------------- */
+
+body {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #303030;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gill Sans", Georgia, serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.12em;
+  margin-bottom: 10px;
+} 
+
+h5 {
+  font-size: 16px;
+  line-height: 1.1em;
+  margin-bottom: 7px;
+} 
+
+h6 {
+  font-size: 14px;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+} 
+
+ul, ol {
+  list-style-position: outside;
+  margin-bottom: 1.5em;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+li a.active, li a.active-trail {
+  color: #00A9E0;
+}
+
+a:hover {
+  color: #ccc;
+}

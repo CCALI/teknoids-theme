@@ -1,0 +1,56 @@
+/*
+ * --- THEME BIGDADDY ---
+ * Styles for MASTER LESS screen styles.
+ * For more information about LESS visit the website http://lesscss.org/.
+ * HAVE NOW FUN CREATING YOUR STYLESHEETS! 
+------------------------------------------------------------------------- */
+
+
+/* Variables
+---------------------------------------------------------------------- */
+@color: #4D926F;
+
+#test_1 {
+  color: @color;
+}
+
+/* Mixins
+---------------------------------------------------------------------- */
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+#test_2 {
+  .rounded-corners;
+}
+
+#test_3 {
+  .rounded-corners(10px);
+}
+
+/* Nested Rules
+---------------------------------------------------------------------- */
+#test_1 {
+ h1 {
+   font-size: 30px;
+ }
+}
+
+/* Functions & Operations
+---------------------------------------------------------------------- */
+@the-border: 1px;
+@base-color: #111;
+@red: #842210;
+
+#test_6 {
+  color: @base-color * 3;
+  border-left: @the-border;
+  border-right: @the-border * 2;
+}
+
+#test_7 { 
+  color: @base-color + #003300;
+  border-color: desaturate(@red, 10%);
+}
